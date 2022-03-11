@@ -1,0 +1,9 @@
+As a user/customer, I can order food, because I am hungry.
+
+As a user/customer, I will receive a notification about how long it will be before my order is ready.
+
+As a user/customer, I can search menu items and add what I would like to my cart.
+
+As a user/restuarant, I will receive a message about an order request because a customer would like to pick up food.
+
+As a user/restuarant, I will send a confirmation message to teh customer with an approximate pick up time for their order.
