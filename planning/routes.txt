@@ -1,0 +1,18 @@
+B GET /home
+R GET /home
+E
+A
+D
+
+B GET /restuarant
+R GET /restuarant
+E
+A POST /restuarant // for buttons to get added to the cart and add total
+D POST /restuarant/delete
+
+B GET /confirmation
+R GET /confirmation
+E
+A
+D
+
