@@ -1,8 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+
 
   background: rgb(163, 208, 219);
   background: linear-gradient(
@@ -14,4 +22,20 @@ body {
     rgba(163, 208, 219, 1) 74%,
     rgba(163, 208, 219, 1) 100%
   );
+}
+
+.top {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.top:hover {
+  color: red;
+}
+
+.top-mid {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
 }
