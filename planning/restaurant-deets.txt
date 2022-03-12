@@ -1,0 +1,13 @@
+Name:  CodeKill Cafe  // Open to name suggestions, maybe something less gross, lol
+
+MENU
+
+FullStack of Pancakes
+API platter
+OpenSource Sandwich
+Fri-Data
+Camel Case-role
+Arctic VARCHAR
+Cookies
+
+// We can pick our favourite 4 or 5 menu items whenever
