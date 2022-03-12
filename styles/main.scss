@@ -42,4 +42,15 @@ body {
 }
 
 
+.food {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.lower-menu {
+  width: 50%;
+  background-color: gray;
+}
 
