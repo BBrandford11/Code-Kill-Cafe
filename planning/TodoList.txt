@@ -1,0 +1,7 @@
+Scrollability
+Routs
+Twillio
+MainPage CSS for Restaurant to get to menu
+Add pricing and total
+Add item descriptions
+Databases
