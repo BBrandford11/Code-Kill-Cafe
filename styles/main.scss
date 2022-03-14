@@ -5,10 +5,10 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
   min-height: 100vh;
   background: wheat;
 }
@@ -39,8 +39,16 @@ body {
 }
 
 .lower-menu {
+  margin-top: 180px;
+  margin-left: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   width: 50%;
   background-color: gray;
+  padding-bottom: 200px;
+
 }
 
 ////confirmation page////
