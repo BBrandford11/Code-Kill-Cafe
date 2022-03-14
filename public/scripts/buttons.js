@@ -3,9 +3,10 @@ $(document).ready(function(){
 
   $("#btn1").on("click", function (e) {
     console.log("button 1 clicked");
-    const $li = $('<li>').text("FullStack of pancakes")
+    const $li = `<p class="order1"> <p>FullStack of pancakes</p> <p>🥞</p> <p>cost</p> </p>`
     $(".order-list").append($li)
   });
+
 
   $("#btn2").on("click", function (e) {
     console.log("button 2 clicked");
