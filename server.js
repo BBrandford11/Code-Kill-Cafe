@@ -53,6 +53,15 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+/////// REMOVE THESE APP.GETS WHEN TESTING DONE ///////
+app.get("/confirmation", (req, res) => {
+  res.render("confirmation");
+});
+
+app.get("/menu", (req, res) => {
+  res.render("menu");
+});
+
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`);
 });

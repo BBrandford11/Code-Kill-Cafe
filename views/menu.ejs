@@ -24,54 +24,76 @@
 
     <script type="text/javascript" src="/vendor/jquery-3.0.0.js"></script>
     <script type="text/javascript" src="/scripts/app.js"></script>
+
+
   </head>
 
   <body>
     <nav>
       <a href="#" class="top">CodeKill<br>Cafe</a>
       <div class="top-mid">
-      <a href="#" class="top">For Restaurants</a>
-      <a href="#" class="top">For Teams</a>
-      <a href="#" class="top">For LightHouse</a>
-    </div>
+        <a href="#" class="top">For Restaurants</a>
+        <a href="#" class="top">For Teams</a>
+        <a href="#" class="top">For LightHouse</a>
+      </div>
       <a href="#" class="top">Download app</a>
     </nav>
-    <div class="lower">
-      <div class="slideshow-container">
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 3</div>
-          <img class="img" src="/images/stock1.webp" />
-          <div class="text">Caption Text</div>
-        </div>
 
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img class="img" src="/images/stock2.jpg" />
-          <div class="text">Caption Two</div>
+    <div class="lower-menu">
+      <div class="menu-container" style="text-align: center">
+        <h3>MENU</h3>
+        <div class="food">
+          <p>1. FullStack of Pancakes</p>
+          <p>$4.99</p>
+          <p>food description</p>
+          <button id="btn1" class="button-42" role="button">Add to order.</button>
         </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
-          <img class="img" src="/images/stock3.jpg" />
-          <div class="text">Caption Three</div>
+        <div class="food">
+          <p>2. API platter</p>
+          <p>$6.50</p>
+          <p>food description</p>
+          <button id="btn2" class="button-42" role="button">Add to order.</button>
         </div>
-
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="food">
+          <p>3. OpenSource Sandwich</p>
+          <p>$7.87</p>
+          <p>food description</p>
+          <button id="btn3" class="button-42" role="button">Add to order.</button>
+        </div>
+        <div class="food">
+          <p>4. Fri-Data</p>
+          <p>$5.00</p>
+          <p>food description</p>
+          <button id="btn4" class="button-42" role="button">Add to order.</button>
+        </div>
+        <div class="food">
+          <p>5. Camel Case-role</p>
+          <p>food description</p>
+          <p>$8.50</p>
+          <button id="btn5" class="button-42" role="button">Add to order.</button>
+        </div>
+        <div class="food">
+          <p>6. Arctic VARCHAR</p>
+          <p>food description</p>
+          <p>$2.25</p>
+          <button id="btn6" class="button-42" role="button">Add to order.</button>
+        </div>
+        <div class="food">
+          <p>7. Cookies</p>
+          <p>food description</p>
+          <p>$3.14</p>
+          <button id="btn7" class="button-42" role="button">Add to order.</button>
+        </div>
       </div>
       <br />
-
-      <!-- The dots/circles -->
-      <div style="text-align: center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
+      <div class="order-container" style="text-align: center">
+        <h3>Order</h3>
+        <li class="order-list"></li>
+        <p>Your total is: $1234</p>
+        <button type="submit" class="btn btn-success">Place Order</button>
       </div>
     </div>
 
-    <p>hello</p>
     <div class="footer-container">
       <div class="footer">
         <div class="footer-heading footer-1">
@@ -106,5 +128,6 @@
         </div>
       </div>
     </div>
+    <script type="text/javascript" src="/scripts/buttons.js"></script>
   </body>
 </html>
