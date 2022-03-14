@@ -112,3 +112,12 @@ body {
   flex-wrap: wrap;
 }
 
+// restaurant list
+
+.restaurant-list {
+  // background-color: red;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10em;
+}
