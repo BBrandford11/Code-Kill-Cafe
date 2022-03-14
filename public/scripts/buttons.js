@@ -3,7 +3,7 @@ $(document).ready(function(){
 
   $("#btn1").on("click", function (e) {
     console.log("button 1 clicked");
-    const $li = `<p class="order1"> <p>FullStack of pancakes</p> <p>🥞</p> <p>cost</p> </p>`
+    const $li = `<div class="order1"> <p>FullStack of pancakes</p> <p>🥞</p> <p>cost</p> </div>`
     $(".order-list").append($li)
   });
 
