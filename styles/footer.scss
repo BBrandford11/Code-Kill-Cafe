@@ -1,8 +1,10 @@
-
 .footer-container {
-  background-color: gray;
+  background-color: rgb(196, 94, 30);
   padding-bottom: 4rem;
   width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
 
 
@@ -33,7 +35,7 @@
 }
 
 .footer-heading a:hover {
-  color: red;
+  color: rgb(213, 131, 80);
   transition: 0.3s ease-out;
 }
 
