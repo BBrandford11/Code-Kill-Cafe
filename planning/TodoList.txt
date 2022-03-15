@@ -1,7 +1,11 @@
 // Scrollability
 // Routs
-Twillio
 // MainPage CSS for Restaurant to get to menu
-//Add pricing and total
+// Add pricing and total
 // Add item descriptions
+Twillio
+Rounding issue on orders
+Pick new photos for main page?
+clean up confirmation mess (ALEX)
 Databases
+Timer?
