@@ -10,37 +10,37 @@ $(document).ready(function(){
 
   $("#btn2").on("click", function (e) {
     console.log("button 2 clicked");
-    const $li = $('<li>').text("API platter")
+    const $li = `<div class="order1"> <p>API platter</p> <p>🍽️</p> <p>cost</p> </div>`
     $(".order-list").append($li)
   });
 
   $("#btn3").on("click", function (e) {
     console.log("button 3 clicked");
-    const $li = $('<li>').text("OpenSource Sandwich")
+    const $li = `<div class="order1"> <p>Opensource Sandwich</p> <p>🥪</p> <p>cost</p> </div>`
     $(".order-list").append($li)
   });
 
   $("#btn4").on("click", function (e) {
     console.log("button 4 clicked");
-    const $li = $('<li>').text("Fri-Data")
+    const $li = `<div class="order1"> <p>Fri-Data</p> <p>🍟</p> <p>cost</p> </div>`
     $(".order-list").append($li)
   });
 
   $("#btn5").on("click", function (e) {
     console.log("button 5 clicked");
-    const $li = $('<li>').text("Camel Case-role")
+    const $li = `<div class="order1"> <p>Camel Case-role</p> <p>🍞</p> <p>cost</p> </div>`
     $(".order-list").append($li)
   });
 
   $("#btn6").on("click", function (e) {
     console.log("button 6 clicked");
-    const $li = $('<li>').text("Arctic VARCHAR")
+    const $li = `<div class="order1"> <p>Arctic VARCHAR</p> <p>🥬</p> <p>cost</p> </div>`
     $(".order-list").append($li)
   });
 
   $("#btn7").on("click", function (e) {
     console.log("button 7 clicked");
-    const $li = $('<li>').text("Cookies")
+    const $li = `<div class="order1"> <p>Arctic Cookies</p> <p>🍪</p> <p>cost</p> </div>`
     $(".order-list").append($li)
   });
 
