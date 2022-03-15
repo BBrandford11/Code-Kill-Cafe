@@ -1,18 +1,26 @@
 $(document).ready(function(){
-
+  let total = 0;
+  let newTotal = 0;
   const $btn1 = $("#btn1")
   const buttonsArray = ["#btn1", "#btn2", "#btn3", "#btn4", "#btn5", "#btn6", "#btn7"];
   const content = ["FullStack of pancakes", "API platter", "Opensource Sandwich", "Fri-Data", "Camel Case-role", "Arctic VARCHAR", "Arctic Cookies"]
+  const cost = [4.99, 6.50, 7.87, 5.00, 8.50, 2.25, 3.14]
+  const emojis = ["🥞", "🍽️", "🥪", "🍟", "🍞", "🥬", "🍪"]
   for (let i = 0; i < buttonsArray.length; i++) {
     $(buttonsArray[i]).on("click", function (e) {
       console.log(`button ${i + 1} clicked`);
       const idNumber = i + 1;
-      const $li = `<div class="order1" id="${'order-' + idNumber}"> <p>${content[i]}</p> <p>🥞</p> <p>cost</p> <button class="button-31">Delete</button> </div>`
+      const $li = `<div class="order1" id="${'order-' + idNumber}"> <p>${content[i]}</p> <p>${emojis[i]}</p> <p>$${cost[i]}</p> <button class="button-31">Delete</button> </div>`
       $(".order-list").append($li)
+      total += cost[i];
+      $(".total").text(`$${total}`)
 
       $(".order1").on("click", function (e) {
         // alert($(this).attr("id"));
         $(this).remove()
+        newTotal = total - cost[i];
+        total = newTotal;
+        $(".total").text(`$${total}`)
       })
     });
   }
