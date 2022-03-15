@@ -13,14 +13,14 @@ html {
 .slideshow-container {
 
   margin-top: 200px;
-  margin-left: 200px;
+  // margin-left: 36%;
   max-width: 500px;
   position: relative;
   // padding-left: 27%;
 
 }
 .dots{
-  margin-left: 100px;
+  // margin-left: 23%;
 }
 /* Hide the images by default */
 .mySlides {
@@ -142,5 +142,11 @@ html {
 }
 
 .lower {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
   width: 100%;
+  font-size: 120%;
+  padding-bottom: 25%;
+  padding-left: 23%;
 }
