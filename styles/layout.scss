@@ -11,17 +11,10 @@ html {
 }
 /* Slideshow container */
 .slideshow-container {
-
   margin-top: 200px;
-  // margin-left: 36%;
-  max-width: 500px;
   position: relative;
-  // padding-left: 27%;
+}
 
-}
-.dots{
-  // margin-left: 23%;
-}
 /* Hide the images by default */
 .mySlides {
   display: none;
@@ -144,9 +137,10 @@ html {
 .lower {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   width: 100%;
   font-size: 120%;
   padding-bottom: 25%;
-  padding-left: 23%;
 }
