@@ -8,6 +8,8 @@ $(document).ready(function(){
   const emojis = ["🥞", "🍽️", "🥪", "🍟", "🍞", "🥬", "🍪"]
   for (let i = 0; i < buttonsArray.length; i++) {
     $(buttonsArray[i]).on("click", function (e) {
+      // e.stopPropagation()
+      // e.stopImmediatePropagation()
       console.log(`button ${i + 1} clicked`);
       const idNumber = i + 1;
       const $li = `<div class="order1" id="${'order-' + idNumber}"> <p>${content[i]}</p> <p>${emojis[i]}</p> <p>$${cost[i]}</p> <button class="button-31">Delete</button> </div>`
@@ -17,9 +19,12 @@ $(document).ready(function(){
 
       $(".order1").on("click", function (e) {
         // alert($(this).attr("id"));
+        // e.stopPropagation()
+        e.stopImmediatePropagation()
         $(this).remove()
         newTotal = total - cost[i];
         total = newTotal;
+        console.log("button clicked")
         $(".total").text(`$${total}`)
       })
     });
