@@ -1,7 +1,7 @@
-Scrollability
-Routs
+// Scrollability
+// Routs
 Twillio
-MainPage CSS for Restaurant to get to menu
+// MainPage CSS for Restaurant to get to menu
 Add pricing and total
-Add item descriptions
+// Add item descriptions
 Databases
