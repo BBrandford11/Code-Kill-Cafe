@@ -12,14 +12,15 @@ $(document).ready(function(){
       const $li = `<div class="order1" id="${'order-' + idNumber}"> <p>${content[i]}</p> <p>${emojis[i]}</p> <p>$${cost[i]}</p> <button class="button-31">Delete</button> </div>`
       $(".order-list").append($li)
       total += cost[i];
-      $(".total").text(`$${total}`)
+      // total = total.toFixed(2);
+      $(".total").text(`$${total.toFixed(2)}`)
 
       $(".order1").on("click", function (e) {
         e.stopImmediatePropagation()
         $(this).remove()
         newTotal = total - cost[i];
         total = newTotal;
-        $(".total").text(`$${total}`)
+        $(".total").text(`$${total.toFixed(2)}`)
       })
     });
   }
