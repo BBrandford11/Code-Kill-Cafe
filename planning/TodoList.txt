@@ -3,9 +3,9 @@
 // MainPage CSS for Restaurant to get to menu
 // Add pricing and total
 // Add item descriptions
+// clean up confirmation mess (ALEX)
 Twillio
 Rounding issue on orders
 Pick new photos for main page?
-clean up confirmation mess (ALEX)
 Databases
 Timer?
