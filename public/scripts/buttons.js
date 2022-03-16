@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
   let total = 0;
   let newTotal = 0;
@@ -24,5 +25,36 @@ $(document).ready(function(){
       })
     });
   }
+
+
+
+  $('.place-order').on("click", function (e) {
+    console.log("button clicked")
+    sendMessage()
+
+
+  });
+
+  function sendMessage () {
+    $.ajax({
+      type: "POST",
+      url: "/menu/message",
+      data: {
+        body: 'hello',
+        messagingServiceSid: 'MGe5d4ed39a658a6df660126841e26a05f',
+        to: '+14039934171'
+
+      },
+
+    })
+    .then((result) => {
+
+    }).catch((err) => {
+
+    });
+
+  }
+
+
 });
 

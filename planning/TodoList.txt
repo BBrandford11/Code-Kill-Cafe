@@ -5,7 +5,7 @@
 // Add item descriptions
 // clean up confirmation mess (ALEX)
 Twillio
-Rounding issue on orders
-Pick new photos for main page?
+// Rounding issue on orders
+// Pick new photos for main page?
 Databases
 Timer?
