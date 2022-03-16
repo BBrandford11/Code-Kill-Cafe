@@ -49,15 +49,13 @@ $(document).ready(function () {
     console.log("button clicked");
     sendMessage();
   });
-
   function sendMessage() {
     $.ajax({
       type: "POST",
       url: "/menu/message",
       data: {
-        body: "hello",
+        body: "A customer has placed an order!",
         messagingServiceSid: "MGe5d4ed39a658a6df660126841e26a05f",
-        to: "+14039934171",
       },
     })
       .then((result) => {})

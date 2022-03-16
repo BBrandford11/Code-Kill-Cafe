@@ -6,6 +6,7 @@
  */
 const accountSid = process.env.TWILIO_ACCOUNT_SID;
 const authToken = process.env.TWILIO_AUTH_TOKEN;
+const number = process.env.myNumber;
 
 const client = require('twilio')(accountSid, authToken);
 
@@ -17,14 +18,14 @@ module.exports = (db) => {
     res.render("menu");
   });
   router.post("/message", (req, res) => {
-    const { body, messagingServiceSid, to } = req.body;
+    const { body, messagingServiceSid } = req.body;
     console.log(req.body);
 
     client.messages
       .create({
         body,
         messagingServiceSid,
-        to,
+        to: number,
       })
       .then((message) => console.log(message.sid))
       .done();
