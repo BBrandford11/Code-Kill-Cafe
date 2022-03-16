@@ -1,6 +1,6 @@
 // load .env data into process.env
 require("dotenv").config();
-console.log(process.env)
+console.log(process.env);
 
 // Web server config
 const PORT = process.env.PORT || 8080;
@@ -8,8 +8,6 @@ const sassMiddleware = require("./lib/sass-middleware");
 const express = require("express");
 const app = express();
 const morgan = require("morgan");
-
-
 
 // PG database client/connection setup
 const { Pool } = require("pg");
@@ -58,7 +56,6 @@ app.use("/home", homeRoute(db));
 // app.get("/", (req, res) => {
 //   res.render("index");
 // });
-
 
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`);
