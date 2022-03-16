@@ -9,7 +9,7 @@ $(document).ready(function(){
   for (let i = 0; i < buttonsArray.length; i++) {
     $(buttonsArray[i]).on("click", function (e) {
       const idNumber = i + 1;
-      const $li = `<div class="order1" id="${'order-' + idNumber}"> <p>${content[i]}</p> <p>${emojis[i]}</p> <p>$${cost[i]}</p> <button class="button-31">Delete</button> </div>`
+      const $li = `<div class="order1" id="${'order-' + idNumber}"> <p>${content[i]}</p> <p>${emojis[i]}</p> <p>$${cost[i].toFixed(2)}</p> <button class="button-31">Delete</button> </div>`
       $(".order-list").append($li)
       total += cost[i];
       // total = total.toFixed(2);
