@@ -4,12 +4,14 @@
   align-items: center;
   margin: 20px;
   justify-content: space-between;
+  font-weight: bold;
 }
 
 .order1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-weight: bold;
 }
 
 .lower-menu {
@@ -29,6 +31,7 @@
   background-color: wheat;
   padding-top: 10px;
   padding-bottom: 5px;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
 
 .order-container {
@@ -37,4 +40,6 @@
   border-radius: 5%;
   padding: 5%;
   width: 50%;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  font-weight: bold;
 }
