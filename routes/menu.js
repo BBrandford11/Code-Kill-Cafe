@@ -18,6 +18,7 @@ module.exports = (db) => {
     res.render("menu");
   });
   router.post("/message", (req, res) => {
+    
     const { body, messagingServiceSid } = req.body;
     console.log(req.body);
 
